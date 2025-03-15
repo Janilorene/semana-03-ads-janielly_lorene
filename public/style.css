@@ -1,120 +1,19 @@
-/*Elementos estruturais*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-/*Cabeçalho*/
+
 .header {
-    color: #fff;
-    padding: 1%;
-    display: flex;
-}
-
-#titulo {
-    color: rgb(44, 137, 199);
-    font-size: 2rem;
-    text-align: start;
-    top: 2%;
-}
-
-.menu ul {
-    display: flex;
-    position: absolute; 
-    top: 8%;            
-    left: 50%;           
-    transform: translate(-50%, -50%); 
-    font-size: 1rem;
-    list-style: none;
-    gap: 2rem;
-}
-
-.menu a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.busca {
-    position: absolute; 
-    top: 8%;            
-    left: 81%;           
-    transform: translate(-50%, -50%); 
-    text-align: center;
-}
-
-form input {
-    padding: 10px;
-    width: 60%;
-    margin-right: 10px;
-}
-
-form button {
-    padding: 10px;
     background: #333;
     color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-/* Elementos da página */
-
-main {
     padding: 20px;
-    max-width: 90%;
-    margin: auto;
-}
-
-.filmes {
-    margin: 0 auto;
-}
-
-.filmes h2 {
-    text-align: left; 
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    color: #ffffff;
-    width: 100%; 
-} 
-
-.secao {
-    display: flex;
-    padding: 10px;
-}
-
-
-.filme {
-    padding: 15px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.filme:hover {
-    transform: scale(1.05);
-}
-
-.filme img {
-    width: 100%;
-    height: fit-content;
-}
-
-.filme h3 {
-    color: #ffffff;
-    margin-top: 15px;
-    font-size: 1.1rem;
     text-align: center;
-}
-
-.footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }

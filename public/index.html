@@ -1,128 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POP&CORN</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!--Cabeçalho-->
+<header class="header">
+    <div class="titulo">
+        <h1>POP&CORN</h1>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="">Filmes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
 
 <body>
-    <!--Cabeçalho-->
-    <header class="header">
-        <section id="titulo">
-            <h1>POP&CORN</h1>
-        </section>
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="destaques.html">Destaques</a></li>
-                <li><a href="#">Gêneros</a></li>
-            </ul>
-        </nav>
+    <main>
         <section class="busca">
             <form>
                 <input type="text" placeholder="Buscar filmes...">
                 <button type="submit">Buscar</button>
             </form>
         </section>
-    </header>
-
-    <main>
-        <div class="filmes">
-            <h2>Novidades</h2>
-            <section class="secao">
-                <section class="filme">
-                    <img src="https://picsum.photos/id/10/200/300" alt="">
-                    <h3>Filme 1</h3>
-                    <p class="sinopse">Sinopse do Filme 1</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 2</h3>
-                    <p class="sinopse">Sinopse do Filme 2</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 3</h3>
-                    <p class="sinopse">Sinopse do Filme 3</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 4</h3>
-                    <p class="sinopse">Sinopse do Filme 4</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 5</h3>
-                    <p class="sinopse">Sinopse do Filme 5</p>
-                </section>
-            </section>
-
-            <h2>Novidades</h2>
-            <section class="secao">
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 6</h3>
-                    <p class="sinopse">Sinopse do Filme 6</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 7</h3>
-                    <p class="sinopse">Sinopse do Filme 7</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 8</h3>
-                    <p class="sinopse">Sinopse do Filme 8</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 9</h3>
-                    <p class="sinopse">Sinopse do Filme 9</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 10</h3>
-                    <p class="sinopse">Sinopse do Filme 10</p>
-                </section>
-            </section>
-
-            <h2>Novidades</h2>
-            <section class="secao">
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 11</h3>
-                    <p class="sinopse">Sinopse do Filme 11</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 12</h3>
-                    <p class="sinopse">Sinopse do Filme 12</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 13</h3>
-                    <p class="sinopse">Sinopse do Filme 13</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 14</h3>
-                    <p class="sinopse">Sinopse do Filme 14</p>
-                </section>
-                <section class="filme">
-                    <img src="https://picsum.photos/seed/picsum/200/300" alt="">
-                    <h3>Filme 15</h3>
-                    <p class="sinopse">Sinopse do Filme 15</p>
-                </section>
-            </section>
-        </div>
+       
+        <section class="filmes">
+            <article class="filme">
+                <img src="https://picsum.photos/id/10/200/300" alt="Filme 1">
+                <h2>Filme 1</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+            <article class="movie">
+                <img src="https://picsum.photos/id/20/200/300" alt="Filme 2">
+                <h2>Filme 2</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+            <article class="movie">
+                <img src="https://picsum.photos/id/30/200/300" alt="Filme 3">
+                <h2>Filme 3</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+        </section>
     </main>
-
+   
     <footer class="footer">
         <p>&copy; 2025 Catálogo de Filmes. Todos os direitos reservados.</p>
     </footer>
+
+
 </body>
+
 
 </html>

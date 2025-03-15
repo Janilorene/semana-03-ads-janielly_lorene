@@ -14,7 +14,7 @@ body {
 
 /*Cabeçalho*/
 .header {
-    color: #fff;
+    background-image:linear-gradient(rgb(133, 130, 130),rgb(199, 199, 199));
     padding: 1%;
     display: flex;
     margin-bottom: 2rem;
@@ -26,17 +26,14 @@ body {
     text-align: start;
     top: 2%;
     color: red;
-
-
 }
-
 
 .menu ul {
     display: flex;
     font-size: 1.2rem;
     position: absolute;
     top: 8%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
     list-style: none;
     gap: 2rem;
@@ -46,6 +43,10 @@ body {
 .menu a {
     color: #fff;
     text-decoration: none;
+}
+
+.menu a:hover {
+    color: red;
 }
 
 
@@ -73,6 +74,22 @@ form button {
     cursor: pointer;
 }
 
+.login-btn {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .login-btn:hover {
+    background-color: red;
+  }
 
 /* Elementos da página */
 

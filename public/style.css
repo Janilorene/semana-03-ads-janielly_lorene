@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
 }
 
@@ -17,24 +17,27 @@ body {
     color: #fff;
     padding: 1%;
     display: flex;
+    margin-bottom: 2rem;
 }
 
 
 #titulo {
-    color: rgb(44, 137, 199);
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: start;
     top: 2%;
+    color: red;
+
+
 }
 
 
 .menu ul {
     display: flex;
+    font-size: 1.2rem;
     position: absolute;
-    top: 8%;            
-    left: 50%;          
+    top: 8%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1rem;
     list-style: none;
     gap: 2rem;
 }
@@ -48,8 +51,8 @@ body {
 
 .busca {
     position: absolute;
-    top: 8%;            
-    left: 81%;          
+    top: 8%;
+    left: 81%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -88,7 +91,7 @@ main {
 
 .filmes h2 {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     color: #ffffff;
     width: 100%;

@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POP&CORN</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!--Cabeçalho-->
+<header class="header">
+    <div class="titulo">
+        <h1>POP&CORN</h1>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="">Filmes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
 <body>
+    <main>
+        <section class="busca">
+            <form>
+                <input type="text" placeholder="Buscar filmes...">
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+        
+        <section class="filmes">
+            <article class="filme">
+                <img src="https://picsum.photos/id/10/200/300" alt="Filme 1">
+                <h2>Filme 1</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+            <article class="movie">
+                <img src="https://picsum.photos/id/20/200/300" alt="Filme 2">
+                <h2>Filme 2</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+            <article class="movie">
+                <img src="https://picsum.photos/id/30/200/300" alt="Filme 3">
+                <h2>Filme 3</h2>
+                <p class="sinopse">Sinopse</p>
+            </article>
+        </section>
+    </main>
     
+    <footer class="footer">
+        <p>&copy; 2025 Catálogo de Filmes. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
+
 </html>
